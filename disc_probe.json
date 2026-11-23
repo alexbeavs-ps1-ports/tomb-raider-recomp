@@ -1,0 +1,38 @@
+{
+  "cue_path": "disc/Tomb Raider (USA) (Rev 6).cue",
+  "cue_name": "Tomb Raider (USA) (Rev 6).cue",
+  "bin_name": "Tomb Raider (USA) (Rev 6) (Track 1).bin",
+  "track_count": 57,
+  "data_track_size": 343417872,
+  "data_track_md5": "786a284ef28e71336debce138e5376ae",
+  "data_track_sha1": "204a8f248ef4b8a8ab0571b49427269938fd6a5f",
+  "data_track_crc32": "93f4f732",
+  "boot_exe": "SLUS_001.52",
+  "serial": "SLUS-00152",
+  "serial_exe": "SLUS_001.52",
+  "volume_id": "TOMBRAIDER",
+  "display_name": "Tomb Raider (USA) (Rev 6)",
+  "load_address": "0x80010000",
+  "entry_pc": "0x80013D6C",
+  "text_size": "0x00005800",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "4598d16a5c0dc4d6ca824803747f48075ecf03bfc94391b7ed7b54408bee1459",
+  "boot_exe_sha256": "9952738fa47b7b4e662b40faa8e91653dd3465bc5997cb16288a497453d8024c",
+  "boot_exe_size": 24576,
+  "boot_exe_page_crc32": [
+    "1c94fabb",
+    "14d28264",
+    "9bddc182",
+    "8efede29",
+    "c0565401",
+    "ba820f3d"
+  ],
+  "seed_count": 68,
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
